@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Bulk URL Opener",
+    "version": "1.0",
+    "description": "Opens all links from the highlighted text in new tabs.",
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "icons": {
+        "48": "icon.png"
+    },
+    "applications": {
+        "gecko": {
+            "id": "hi@nikapadia.com"
+        }
+    }
+}
